@@ -1,38 +1,110 @@
-*{box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet"  href="./css/style.css">
+    <!--for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+ <div id="screen"> 
+    <!-- left side-->
+  <section id="leftcolumn">
+
+       <header> 
+    <h1>Ghaid Tayeb</h1>
+    <h3>Software Engineering Undergraduate</h3>
+     </header>
+     <br>
+    
+    <!--education-->
+    <nav class="navBar">
+    <h3>Education</h3>
+    </nav>
+    <p>bachelor of science in software engineering
+        <br> 
+        University Of Jeddah, Jeddah, Saudi Arabia </p>
+   <p>2024 - expected 2028</p>
+   <br>
+   <nav class="navBar">
+             <h3>Technical Skills:</h3>
+             </nav>
+    <p>Programming Languages: <br> Java, Python, C </p> 
+     <p> Web Technologies: <br> HTML, CSS </p>
+
+       <br>
+   <nav class="navBar">
+             <h3>Languages:</h3>
+             </nav> 
+     <p>English  <br> <input type="range" max="10" value="6.5"> <br> competent </p>
+     <p>Arabic <br> <input type="range" max="10" value="10"> <br> native </p>
+   <br>
+<nav class="navBar">
+      <h3>Contact</h3>
+</nav>
+    <p> <i class="fas fa-phone"></i>
+        phone number: <br> <a href="tel:+966501242721"> +966 50 124 2721 </a> </p>
+    <p><i class="fas fa-envelope"></i>
+        email: <br>  <a href="https://outlook.office365.com/mail/login.html?bO=1#authRedirect=true"> gatayebed@gmail.com </a></p>
+    <p> <i class="fas fa-map-marker-alt"></i>
+        adress: <br> <a href=""> Jeddah-Saudi Arabia </a> </p>
+
+   </section>
+   <!--end left area-->
+
+   <!--middle area-->
+    <section id="middlecolumn">
+    <nav class="navBar">    
+    <h3>Objectives</h3>
+    </nav>
+   <p>Motivated Software Engineering undergraduate seeking an 
+    internship opportunity to apply programming and problem-solving 
+    skills while gaining practical experience in software development.</p>
+   <br>
+
+    <nav class="navBar"> 
+<h3>Academic Project:</h3>
+        </nav>
+     <h4>Cinema Ticket Booking System</h4> 
+    <p>Designed a database system using diagrams and MySQL</p>
+    <p><a href="./media/cinema ticket booking system.pdf">Project PDF Link</a></p>
+    
+    <h4>Simple Library System </h4>
+    <p> Developed a simple library system using C programming language</p>
+    <p><a href="./media/project.c">Project Code Link</a></p>
+
+    <h4>Combinational Traffic Light Controller</h4>
+    <p>Designed a traffic light controller circuit implemented in Tinkercad</p>
+    <p><a href="./media/DLD project.pdf">Project PDF Link</a></p>
+
+<br>
+       <nav class="navBar">
+        <h3>Relevant Courses:</h3>
+   </nav>
+    <p>Data Structures, Object-Oriented Programming, Principles Of 
+        Software Engineering, Computer Architecture, Web Development </p>  
+<br>
+
+ <nav class="navBar">
+            <h3>Certificates</h3> 
+    </nav>
+       <ul>
+<li><a href="./media/ibm certificate2.jpg">Project Management Fundamentals</a></li>
+<li><a href="./media/ibm certificate.jpg">Code Generation and Optimization Using IBM Granit</a></li>
+<li><a href="./media/ielts.jpg">English IELTS</a></li>     
+</ul>
+</section>
+<!--technical skills-->
+</div>  
+<footer> 
+<p> &copy, 2026 Ghaid Tayeb </p>
+</footer>
 
 
-header{text-align: center; 
- background-color: #6b6b77; }
 
 
-#leftcolumn{background-color: #6b6b77; width: 30%;
-      padding:30px;}
-
-
-body{ background-color: #ffffff;
-     font-family: Verdana, Geneva, Tahoma, sans-serif; 
-  display: flex; flex-direction: column; min-height: 100vh;
-}
- 
-#screen{
-    display: flex; flex: 1;
-}
-   
-#middlecolumn{background-color:#ffffff;  width: 70%;
-padding: 30px; padding-top: 5%; margin: 0; line-height: 2;
-
-}
-
-
-.navBar {color: #ffffff; display: block; width: 100%; 
-    padding: 1pt 76px; line-height: normal; background-color:#2a1d41;}
-  
-
-ul{padding-left: 20px; line-height: 1.5;}    
-
-li{margin-bottom: 6px;}
-
-
-footer{border-top: 2px double #000000;
-border-bottom: 2px double #000000; margin-top: auto; text-align: center;}
+</body>
+</html>
